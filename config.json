@@ -1,0 +1,15 @@
+{
+    "data": {
+        "secretKey": "",
+        "connectionString": {
+          "dbname": "test_dev_database",
+          "enforce": true,
+          "host": "localhost",
+          "password": "1234",
+          "port": "5432",
+          "sslmode": "disable",
+          "timeZone": "Africa/Nairobi",
+          "user": "postgres"
+        }
+    }
+}

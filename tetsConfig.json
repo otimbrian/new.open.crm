@@ -1,0 +1,18 @@
+{
+    "data": {
+        "dbname": "mapping",
+        "dbuser": "myUserAdmin",
+        "dbpassword": "mypassword",
+        "connectionString": "mongodb://myUserAdmin:mypassword@localhost:27017/?authMechanism=SCRAM-SHA-256&authSource=admin"
+    },
+    "logging": {
+        "level": "debug",
+        "logFile": "logs/develop"
+    },
+    "main": {
+        "message": "Hello This is the main section."
+    },
+    "auth": {
+        "JWT_SECRET": "Mapping-Uganda-Secret-Key"
+    }
+}
